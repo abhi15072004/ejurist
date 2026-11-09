@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eJurist — Law Classes for CLAT, Judiciary & LLB</title>
+  <meta name="description" content="eJurist offers expert-led classes for CLAT, Judiciary, LLB semesters, AIBE and professional law courses.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <div class="wrap nav-inner">
+      <a href="#top" class="logo"><i>e</i>Jurist</a>
+      <nav class="nav-links" id="navLinks" aria-label="Main">
+        <a href="#courses">Courses</a>
+        <a href="#why">Why eJurist</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="nav-cta">Book free demo</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">CLAT · Judiciary · LLB · AIBE</p>
+          <h1><span class="line">From aspirant</span><span class="line">to <em>advocate.</em></span></h1>
+          <p class="hero-lead">Classes taught by practising advocates and former judges — live online, recorded, and in the classroom. In Hindi and English.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-tape">Book a free demo class</a>
+            <a href="#courses" class="btn btn-line">See all courses</a>
+          </div>
+          <dl class="hero-facts">
+            <div><dt>5,000+</dt><dd>students taught</dd></div>
+            <div><dt>250+</dt><dd>selections</dd></div>
+            <div><dt>40</dt><dd>faculty members</dd></div>
+          </dl>
+        </div>
+
+        <!-- Signature: a case file tied with red tape -->
+        <aside class="file" aria-label="New batch details">
+          <span class="tape" aria-hidden="true"></span>
+          <span class="tape-knot" aria-hidden="true"></span>
+          <p class="file-no">File no. EJ/2026-27</p>
+          <p class="file-label">In the matter of</p>
+          <p class="file-title">Your legal career</p>
+          <dl class="file-rows">
+            <div><dt>Petitioner</dt><dd>You</dd></div>
+            <div><dt>Counsel</dt><dd>eJurist faculty</dd></div>
+            <div><dt>Next date</dt><dd>1 December 2026</dd></div>
+            <div><dt>Purpose</dt><dd>New batch begins</dd></div>
+          </dl>
+          <p class="file-stamp">Admissions<br>open</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- COURSES as a court cause list -->
+    <section class="section" id="courses">
+      <div class="wrap">
+        <div class="list-head">
+          <div>
+            <p class="kicker kicker-dark">Courses</p>
+            <h2>Today's cause list</h2>
+          </div>
+          <p class="list-date mono" id="listDate"></p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter courses">
+          <button class="filter is-on" data-filter="all" aria-pressed="true">All matters</button>
+          <button class="filter" data-filter="entrance" aria-pressed="false">Entrance</button>
+          <button class="filter" data-filter="judiciary" aria-pressed="false">Judiciary</button>
+          <button class="filter" data-filter="academic" aria-pressed="false">LLB / LLM</button>
+          <button class="filter" data-filter="pro" aria-pressed="false">Professional</button>
+        </div>
+
+        <ol class="cause-list">
+          <li class="row cols" aria-hidden="true">
+            <span>Item</span><span>Matter</span><span>Mode</span><span>Duration</span><span></span>
+          </li>
+          <li class="row" data-cat="entrance">
+            <span class="item mono">01</span>
+            <div class="matter"><h3>Aspirant <i>v.</i> CLAT &amp; AILET</h3><p>Legal reasoning, GK, English and logic, with a full-length mock every week.</p></div>
+            <span class="mode">Live + recorded</span><span class="dur mono">12 months</span>
+            <a href="#contact" class="enquire" data-course="CLAT &amp; AILET Prep">Enquire</a>
+          </li>
+          <li class="row" data-cat="entrance">
+            <span class="item mono">02</span>
+            <div class="matter"><h3>Graduate <i>v.</i> LLM Entrance</h3><p>CLAT-PG and university entrance preparation with subject tests.</p></div>
+            <span class="mode">Live online</span><span class="dur mono">6 months</span>
+            <a href="#contact" class="enquire" data-course="LLM Entrance">Enquire</a>
+          </li>
+          <li class="row" data-cat="judiciary">
+            <span class="item mono">03</span>
+            <div class="matter"><h3>Aspirant <i>v.</i> Judicial Services</h3><p>Prelims, mains answer writing and interview practice for state PCS-J exams.</p></div>
+            <span class="mode">Hybrid</span><span class="dur mono">12 months</span>
+            <a href="#contact" class="enquire" data-course="Judicial Services">Enquire</a>
+          </li>
+          <li class="row" data-cat="judiciary">
+            <span class="item mono">04</span>
+            <div class="matter"><h3>Aspirant <i>v.</i> APO &amp; Law Officer</h3><p>Focused coaching for prosecution and legal officer posts.</p></div>
+            <span class="mode">Live online</span><span class="dur mono">8 months</span>
+            <a href="#contact" class="enquire" data-course="APO / Law Officer">Enquire</a>
+          </li>
+          <li class="row" data-cat="academic">
+            <span class="item mono">05</span>
+            <div class="matter"><h3>Student <i>v.</i> LLB Semester</h3><p>Subject-wise classes for 3- and 5-year LLB — BNS, CPC, Constitution and more.</p></div>
+            <span class="mode">Live + notes</span><span class="dur mono">Per semester</span>
+            <a href="#contact" class="enquire" data-course="LLB Semester Classes">Enquire</a>
+          </li>
+          <li class="row" data-cat="pro">
+            <span class="item mono">06</span>
+            <div class="matter"><h3>Graduate <i>v.</i> AIBE</h3><p>Bare-act based practice to clear the All India Bar Examination.</p></div>
+            <span class="mode">Recorded</span><span class="dur mono">3 months</span>
+            <a href="#contact" class="enquire" data-course="AIBE Preparation">Enquire</a>
+          </li>
+          <li class="row" data-cat="pro">
+            <span class="item mono">07</span>
+            <div class="matter"><h3>Advocate <i>v.</i> Drafting &amp; Pleading</h3><p>Draft real petitions, notices, agreements and affidavits, reviewed line by line.</p></div>
+            <span class="mode">Workshop</span><span class="dur mono">2 months</span>
+            <a href="#contact" class="enquire" data-course="Legal Drafting">Enquire</a>
+          </li>
+          <li class="row" data-cat="pro">
+            <span class="item mono">08</span>
+            <div class="matter"><h3>Professional <i>v.</i> Corporate Law</h3><p>Contracts, compliance and company law for working professionals.</p></div>
+            <span class="mode">Weekends</span><span class="dur mono">3 months</span>
+            <a href="#contact" class="enquire" data-course="Corporate &amp; Contract Law">Enquire</a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- WHY as grounds of a petition -->
+    <section class="section section-green" id="why">
+      <div class="wrap why-grid">
+        <div class="why-intro">
+          <p class="kicker">Why eJurist</p>
+          <h2>Grounds for choosing us</h2>
+          <p>Six reasons students stay with us from their first class to their final result.</p>
+        </div>
+        <ol class="grounds">
+          <li><span class="g">A.</span><div><h3>Taught by people who practise law</h3><p>Advocates from the High Court, former judges and NLU alumni.</p></div></li>
+          <li><span class="g">B.</span><div><h3>Notes you can revise in a night</h3><p>Bare-act summaries and landmark judgment digests, updated for BNS, BNSS and BSA.</p></div></li>
+          <li><span class="g">C.</span><div><h3>Answer writing, checked by hand</h3><p>Every mains copy is evaluated with comments, not just marks.</p></div></li>
+          <li><span class="g">D.</span><div><h3>A mentor who tracks you</h3><p>Weekly check-ins to plan, review and fix what's slipping.</p></div></li>
+          <li><span class="g">E.</span><div><h3>Moot court practice</h3><p>Argue in courtroom simulations before you face a real bench.</p></div></li>
+          <li><span class="g">F.</span><div><h3>Hindi and English</h3><p>Every class is bilingual, so no concept gets lost in translation.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- FACULTY -->
+    <section class="section" id="faculty">
+      <div class="wrap">
+        <p class="kicker kicker-dark">Faculty</p>
+        <h2 class="section-title">Who teaches you</h2>
+        <div class="faculty-grid">
+          <article class="person"><div class="mono-gram">CL</div><h3>Faculty name</h3><p class="subject">Constitutional law</p><p class="bio">Advocate, High Court · 15 years</p></article>
+          <article class="person"><div class="mono-gram">CR</div><h3>Faculty name</h3><p class="subject">Criminal law</p><p class="bio">Former District Judge</p></article>
+          <article class="person"><div class="mono-gram">LR</div><h3>Faculty name</h3><p class="subject">Legal reasoning</p><p class="bio">NLU alumnus · CLAT mentor</p></article>
+          <article class="person"><div class="mono-gram">CO</div><h3>Faculty name</h3><p class="subject">Corporate law</p><p class="bio">Company Secretary, LLM</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section section-white">
+      <div class="wrap">
+        <p class="kicker kicker-dark">Students</p>
+        <h2 class="section-title">In their words</h2>
+        <div class="quotes">
+          <figure><blockquote>“Every mains copy came back with comments in the margin. That's what changed my answers.”</blockquote><figcaption><b>Student name</b> Civil Judge (Jr. Div.)</figcaption></figure>
+          <figure><blockquote>“By exam day, CLAT felt like the forty-first mock, not the first.”</blockquote><figcaption><b>Student name</b> CLAT · National Law University</figcaption></figure>
+          <figure><blockquote>“Semester classes gave me case laws I could actually quote in the exam.”</blockquote><figcaption><b>Student name</b> LLB, 3rd year</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="wrap faq-grid">
+        <div>
+          <p class="kicker kicker-dark">FAQ</p>
+          <h2>Before you enrol</h2>
+        </div>
+        <div class="faq">
+          <details><summary>Are classes online or offline?</summary><p>Both. Most courses run live online with recordings, and selected batches run in the classroom.</p></details>
+          <details><summary>Can I attend a class before paying?</summary><p>Yes. Book a free demo class below and we'll send you the schedule.</p></details>
+          <details><summary>Is study material included?</summary><p>Yes. Every course includes notes, practice sets and the test series.</p></details>
+          <details><summary>Do you offer EMI or scholarships?</summary><p>Yes. EMI is available on all long courses, and merit scholarships are given after a short test.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-green" id="contact">
+      <div class="wrap contact-grid">
+        <div class="contact-copy">
+          <p class="kicker">Free demo class</p>
+          <h2>Sit in on a class first. Decide after.</h2>
+          <p>Leave your number and a counsellor will call you within 24 hours with the demo schedule.</p>
+          <ul class="contact-lines mono">
+            <li>+91 00000 00000</li>
+            <li>info@ejurist.in</li>
+            <li>Your City, India</li>
+          </ul>
+        </div>
+        <form class="form" id="enquiryForm" novalidate>
+          <span class="tape tape-corner" aria-hidden="true"></span>
+          <p class="form-title">Enquiry form</p>
+          <label>Full name<input type="text" name="name" required minlength="2" autocomplete="name"></label>
+          <label>Mobile number<input type="tel" name="phone" required pattern="[6-9][0-9]{9}" inputmode="numeric" maxlength="10" autocomplete="tel-national" placeholder="10 digits"></label>
+          <label>Course
+            <select name="course" id="courseSelect" required>
+              <option value="">Choose a course</option>
+              <option>CLAT &amp; AILET Prep</option>
+              <option>LLM Entrance</option>
+              <option>Judicial Services</option>
+              <option>APO / Law Officer</option>
+              <option>LLB Semester Classes</option>
+              <option>AIBE Preparation</option>
+              <option>Legal Drafting</option>
+              <option>Corporate &amp; Contract Law</option>
+            </select>
+          </label>
+          <button type="submit" class="btn btn-tape btn-full">Book free demo class</button>
+          <p class="form-msg" id="formMsg" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <a href="#top" class="logo"><i>e</i>Jurist</a>
+      <p>© <span id="year"></span> eJurist. All rights reserved.</p>
+      <nav class="socials" aria-label="Social">
+        <a href="#">Instagram</a><a href="#">YouTube</a><a href="#">LinkedIn</a>
+      </nav>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/910000000000" class="wa" target="_blank" rel="noopener">WhatsApp us</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
